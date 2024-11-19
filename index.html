@@ -1,13 +1,14 @@
+
 <html>
     <head>
         <title>Lokanath</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Lokanath">
+        <meta http-equiv="refresh" content="15">
+        <link rel="stylesheet" href="./pagestyles.css">
         <style>
-            .mainpage
-            {
-                border: 1px solid black;
-                border-radius: 10px;
-                justify-content: space-around;
-            }
+            
             .grid-container
             {
                 display: grid;
@@ -31,18 +32,19 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: small;
             }
+            
+            
         </style>
     </head>
     <body>
        <center> <h1 >DEVARAKONDA LOKANATH</h1></center>
         <div class="mainpage">
-            <ul style="display: flex; font-family: 'Times New Roman', Times, serif; justify-content: space-around;"> 
-                <li> Home</li>
-               <a href="https://github.com/lokanath2001/Lokanath-web/blob/main/education.html"> <li>EducationQualification</li></a>
-                <li>Extracurcular activites</li>
-                <li>family background</li>
-                
-            </ul>
+            <nav class="navsection">
+                <a href="./index.html" target="_self" >Home</a>|
+                <a href="./education.html" target="_self">EducationQualification</a>|
+                <a href="./contact.html" >Contact</a>|
+                <input class="search" text="fsrch" id="fsrch" placeholder="search">
+            </nav>
         </div>
         <div class="grid-container">
             <div class="grid-item">Introduction:
